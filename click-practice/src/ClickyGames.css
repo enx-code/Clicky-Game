@@ -1,0 +1,11 @@
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clicky-image {
+  width: 100px; /* Set the desired width */
+  height: 100px; /* Set the desired height */
+  margin: 5px; /* Add some margin for spacing between images */
+  cursor: pointer;
+}
