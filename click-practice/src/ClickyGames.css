@@ -9,3 +9,6 @@
   margin: 5px; /* Add some margin for spacing between images */
   cursor: pointer;
 }
+.center {
+  text-align: center;
+}

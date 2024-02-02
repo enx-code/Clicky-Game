@@ -1,4 +1,3 @@
-// src/PlayerNameInput.js
 import React, { useState } from "react";
 
 const PlayerNameInput = ({ onSubmit }) => {
@@ -12,7 +11,7 @@ const PlayerNameInput = ({ onSubmit }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="center">
       <label>
         Enter Your Name:
         <input

@@ -1,4 +1,3 @@
-// src/ClickyGame.js
 import React, { useState, useEffect } from "react";
 import PlayerNameInput from "./PlayerNameInput";
 import HighScoreDisplay from "./HighScoreDisplay";
@@ -8,7 +7,6 @@ const ClickyGame = () => {
 
   const [playerName, setPlayerName] = useState("");
   const [images, setImages] = useState([
-    // Add your image URLs here
     import.meta.env.BASE_URL + "./public/image1.png",
     import.meta.env.BASE_URL + "./public/image2.png",
     import.meta.env.BASE_URL + "./public/image3.png",
@@ -23,8 +21,6 @@ const ClickyGame = () => {
     import.meta.env.BASE_URL + "./public/image12.jpeg",
     import.meta.env.BASE_URL + "./public/image13.jpeg",
     import.meta.env.BASE_URL + "./public/image14.jpeg",
-
-    // ...
   ]);
 
   const [score, setScore] = useState(0);
@@ -32,7 +28,6 @@ const ClickyGame = () => {
   const [highScores, setHighScores] = useState([]);
 
   const shuffleImages = () => {
-    // Implement a function to shuffle the images array
     const shuffledImages = [...images].sort(() => Math.random() - 0.5);
     setImages(shuffledImages);
   };
@@ -68,7 +63,7 @@ const ClickyGame = () => {
   }, [playerName]);
 
   return (
-    <div>
+    <div className="center">
       <h1>Clicky Game</h1>
       <PlayerNameInput onSubmit={handlePlayerSubmit} />
       <p>{`Player: ${playerName}`}</p>
