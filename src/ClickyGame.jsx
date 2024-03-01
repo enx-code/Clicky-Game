@@ -7,20 +7,20 @@ const ClickyGame = () => {
 
   const [playerName, setPlayerName] = useState("");
   const [images, setImages] = useState([
-    import.meta.env.BASE_URL + "./public/image1.png",
-    import.meta.env.BASE_URL + "./public/image2.png",
-    import.meta.env.BASE_URL + "./public/image3.png",
-    import.meta.env.BASE_URL + "./public/image4.png",
-    import.meta.env.BASE_URL + "./public/image5.png",
-    import.meta.env.BASE_URL + "./public/image6.jpeg",
-    import.meta.env.BASE_URL + "./public/image7.jpeg",
-    import.meta.env.BASE_URL + "./public/image8.jpeg",
-    import.meta.env.BASE_URL + "./public/image9.jpeg",
-    import.meta.env.BASE_URL + "./public/image10.png",
-    import.meta.env.BASE_URL + "./public/image11.jpeg",
-    import.meta.env.BASE_URL + "./public/image12.jpeg",
-    import.meta.env.BASE_URL + "./public/image13.jpeg",
-    import.meta.env.BASE_URL + "./public/image14.jpeg",
+    import.meta.env.BASE_URL + "./image1.png",
+    import.meta.env.BASE_URL + "./image2.png",
+    import.meta.env.BASE_URL + "./image3.png",
+    import.meta.env.BASE_URL + "./image4.png",
+    import.meta.env.BASE_URL + "./image5.png",
+    import.meta.env.BASE_URL + "./image6.jpeg",
+    import.meta.env.BASE_URL + "./image7.jpeg",
+    import.meta.env.BASE_URL + "./image8.jpeg",
+    import.meta.env.BASE_URL + "./image9.jpeg",
+    import.meta.env.BASE_URL + "./image10.png",
+    import.meta.env.BASE_URL + "./image11.jpeg",
+    import.meta.env.BASE_URL + "./image12.jpeg",
+    import.meta.env.BASE_URL + "./image13.jpeg",
+    import.meta.env.BASE_URL + "./image14.jpeg",
   ]);
 
   const [score, setScore] = useState(0);

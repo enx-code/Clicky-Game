@@ -4,9 +4,9 @@
 }
 
 .clicky-image {
-  width: 100px; /* Set the desired width */
-  height: 100px; /* Set the desired height */
-  margin: 5px; /* Add some margin for spacing between images */
+  width: 100px; 
+  height: 100px; 
+  margin: 5px; 
   cursor: pointer;
 }
 .center {
