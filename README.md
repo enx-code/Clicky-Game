@@ -1,8 +1,8 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Clicky-Game.
+## Description.
+This game promotes memory improvement. When you click picture the application shuffles the images, and you need to click again the image, everytime you click the image it must be different image, once you have clicked the same image the score will show how many images you have clicked and the game will start again. 
+### Used Technologies.
+* HTML,
+* CSS,
+* JavaScript,
+* React.
