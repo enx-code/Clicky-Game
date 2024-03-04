@@ -6,3 +6,5 @@ This game promotes memory improvement. When you click picture the application sh
 * CSS,
 * JavaScript,
 * React.
+
+![alt text](./public/readmePhoto.png)
