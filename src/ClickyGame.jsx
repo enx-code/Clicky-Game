@@ -45,19 +45,16 @@ const ClickyGame = () => {
 
   const handleClick = (image) => {
     if (clickedImages.includes(image)) {
-      // User clicked the same image again, reset the game
       handleScoreSubmit();
       setScore(0);
       setClickedImages([]);
     } else {
-      // User clicked a new image, update the score and shuffle images
       setScore(score + 1);
       setClickedImages([...clickedImages, image]);
       shuffleImages();
     }
   };
 
-  // Shuffle images when the component mounts
   useEffect(() => {
     shuffleImages();
   }, [playerName]);
@@ -75,7 +72,7 @@ const ClickyGame = () => {
             src={image}
             alt={`Image ${index}`}
             onClick={() => handleClick(image)}
-            className="clicky-image" // Add a class for styling
+            className="clicky-image"
           />
         ))}
       </div>
