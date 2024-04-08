@@ -4,7 +4,6 @@ import HighScoreDisplay from "./HighScoreDisplay";
 import "./ClickyGames.css";
 
 const ClickyGame = () => {
-
   const [playerName, setPlayerName] = useState("");
   const [images, setImages] = useState([
     import.meta.env.BASE_URL + "./image1.png",
@@ -63,8 +62,10 @@ const ClickyGame = () => {
     <div className="center">
       <h1>Clicky Game</h1>
       <PlayerNameInput onSubmit={handlePlayerSubmit} />
-      <p>{`Player: ${playerName}`}</p>
-      <p>Score: {score}</p>
+      <div className="padding">
+        <h3 className="d-inline">{`Player: ${playerName}'s `}</h3>
+        <div className="d-inline">score: <h3 className="d-inline">{score}</h3></div>
+      </div>
       <div className="image-container">
         {images.map((image, index) => (
           <img

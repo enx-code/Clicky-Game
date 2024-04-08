@@ -12,3 +12,16 @@
 .center {
   text-align: center;
 }
+.d-inline {
+  display: inline;
+}
+.noDot {
+  list-style: none;
+  padding: 0px;
+}
+.padding {
+  padding: 15px
+}
+h2 {
+  margin: 10px
+}
