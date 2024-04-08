@@ -12,6 +12,9 @@
 .center {
   text-align: center;
 }
+body {
+  margin-top: 0px
+}
 .d-inline {
   display: inline;
 }
@@ -24,4 +27,9 @@
 }
 h2 {
   margin: 10px
+}
+h1 {
+  background-color: rgb(26, 134, 222);
+  color: white;
+  margin-top: 0px; 
 }
